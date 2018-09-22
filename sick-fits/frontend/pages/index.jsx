@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Link from 'next/link';
 
 const Home = props => (
   <>
     <p>Hey</p>
-    <a href="/sell">Sell</a>
+    <Link href="/sell">Sell</Link>
   </>
 );
 
