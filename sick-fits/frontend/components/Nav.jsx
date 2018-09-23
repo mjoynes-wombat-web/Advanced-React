@@ -4,8 +4,12 @@ import Link from 'next/link';
 
 const Nav = props => (
   <div>
-    <Link href="/">Home</Link>
-    <Link href="/sell">Sell</Link>
+    <Link href="/">
+      <a>Home</a>
+    </Link>
+    <Link href="/sell">
+      <a>Sell</a>
+    </Link>
   </div>
 );
 
