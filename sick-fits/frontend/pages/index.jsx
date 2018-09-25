@@ -1,8 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Items from '../components/Items';
+
 const Home = props => (
-  <p>Hey</p>
+  <div>
+    <Items />
+  </div>
 );
 
 Home.propTypes = {
