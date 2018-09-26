@@ -41,11 +41,7 @@ query SINGLE_ITEM_QUERY($id: ID!) {
 `;
 
 class UpdateItem extends Component {
-  state = {
-    title: '',
-    description: '',
-    price: 0,
-  };
+  state = {};
 
   handleChange = (e) => {
     const { target } = e;
@@ -124,7 +120,7 @@ class UpdateItem extends Component {
                         onChange={this.handleChange}
                       />
                     </label>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Sav{loading ? 'ing' : 'e'} Changes</button>
                   </fieldset>
                 </Form>
               )}

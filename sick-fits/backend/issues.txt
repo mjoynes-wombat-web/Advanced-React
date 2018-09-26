@@ -1,2 +1,5 @@
 Video 11:
   Around 9:20 there is a jump in the audio/video.
+
+Video 20:
+  Around 4:28 you say we are querying for title, id and description but then it jumps and says we're only querying for title and id.
