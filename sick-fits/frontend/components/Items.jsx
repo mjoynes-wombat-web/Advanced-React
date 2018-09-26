@@ -58,4 +58,5 @@ Items.propTypes = {
 
 };
 
+export { ALL_ITEMS_QUERY };
 export default Items;
