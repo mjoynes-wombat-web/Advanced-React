@@ -3,3 +3,7 @@ Video 11:
 
 Video 20:
   Around 4:28 you say we are querying for title, id and description but then it jumps and says we're only querying for title and id.
+  Around 6:37 there is a jump where part of writing the function that is inside the Mutation component is skipped over.
+
+Video 21:
+  Around 4:10 there is a jump in the video where some stuff is skipped.
