@@ -7,3 +7,8 @@ Video 20:
 
 Video 21:
   Around 4:10 there is a jump in the video where some stuff is skipped.
+
+Video 22:
+  Around 1:55 there is a pause and restart.
+  Around 5:54 there is a repeat/jump.
+  Around 11:52 You skip over adding the head to pagination.

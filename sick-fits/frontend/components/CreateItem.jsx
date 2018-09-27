@@ -33,7 +33,7 @@ class CreateItem extends Component {
     title: '',
     description: '',
     image: '',
-    price: 2000,
+    price: null,
   };
 
   handleChange = (e) => {
