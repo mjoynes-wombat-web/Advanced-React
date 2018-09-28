@@ -11,8 +11,14 @@ const Home = ({ query }) => (
 
 Home.propTypes = {
   query: PropTypes.shape({
-    page: PropTypes.string.isRequired,
-  }).isRequired,
+    page: PropTypes.string,
+  }),
+};
+
+Home.defaultProps = {
+  query: {
+    page: 1,
+  },
 };
 
 export default Home;
